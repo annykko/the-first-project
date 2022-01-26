@@ -19,7 +19,7 @@ h1{
 }
 /*application-inputs-start */
 .application > ul > li > input {
-    color: lightgrey;
+    color: grey;
     border-radius: 5px;
     padding: 10px 20px;
     border: 1px solid lightgrey;
@@ -33,6 +33,7 @@ h1{
     background: rgba(255, 255, 255, 0.699);
     box-shadow: 0 0 10px lightgray;
     padding: 40px 30px;
+    border-radius: 5px;
 }
 /*application-inputs-end */
 /* nav-start */
@@ -58,7 +59,7 @@ section > .nav{
     width: 60px;
 }
 .red-line{
-    border: solid rgb(218, 38, 38);
+    border: 2px solid rgb(218, 38, 38);
     background: rgb(218, 38, 38);
     width: 60px;
 }
@@ -72,6 +73,23 @@ section > .nav{
     background: rgb(218, 38, 38);
     box-shadow: 0 0 5px rgb(59, 58, 58);
     border: rgb(218, 38, 38);
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-decoration: none;
+    border-radius: 5px;
+}
+.buttons-2{
+    width: 300px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons-2 > a {
+    display: block;
+    color: white;
+    background: rgb(218, 38, 38);
+    box-shadow: 0 0 5px rgb(59, 58, 58);
+    border: rgb(218, 38, 38);
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
