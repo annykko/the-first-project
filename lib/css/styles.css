@@ -91,7 +91,7 @@ section > .nav{
 .buttons > .end-buttons{
     padding: 30px 0px 20px 20px;
 }
-.buttons > .end-buttons > a {
+.buttons > .end-buttons > a, button {
     display: block;
     color: white;
     background: rgb(218, 38, 38);
